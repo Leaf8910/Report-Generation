@@ -1,0 +1,13 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="YourNamespace.MainPage">
+
+    <StackLayout>
+        <Button Text="Generate Report" Clicked="GenerateReport_Clicked" />
+        <Editor x:Name="ReportEditor" />
+    </StackLayout>
+
+</ContentPage>

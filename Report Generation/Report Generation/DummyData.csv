@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Text;
+
+namespace Report_Generation
+{
+    public partial class DummyData: Component
+    {    
+        public DummyData()
+        {
+            InitializeComponent();
+        }
+
+        public DummyData(IContainer container)
+        {
+            container.Add(this);
+
+            InitializeComponent();
+        }
+    }
+}
